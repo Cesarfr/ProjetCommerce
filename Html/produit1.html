@@ -1,0 +1,44 @@
+<h2>Ajouter </h2>
+<form id="addProd">
+    <fieldset>
+        <p>
+            <label for="nom_prod">Nom product</label>
+            <input type="text" class="required" id="nom_prod" name="NOM_PROD" maxlength="50" />
+        </p>
+        <p>
+            <label for="reference">Réference</label>
+            <input type="text" class="required" id="reference" name="PRENOM" maxlength="50" />
+        </p>
+        <p>
+            <label for="descr">Description</label>
+            <textarea name="DESCR" id="descr" cols="30" rows="10" class="required"></textarea>
+        </p>
+        <label for="photo">Photo</label>
+        <div id="drop_photo">
+            <img id="preview" src="../Img/image.png" alt="" />
+            <input id="photo" type="file" name="PHOTO" />
+        </div>
+        <p>
+            <label for="categorie">Catégorie</label>
+            <select name="CATEGORIE" id="categorie">
+                <option value="" selected="selected" disabled="disabled">Sélectionnez</option>
+                <option value="1">Cat1</option>
+                <option value="2">Cat2</option>
+                <option value="3">Cat3</option>
+                <option value="4">Ccat4</option>
+            </select>
+        </p>
+        <p>
+            <label for="subcat">Sub-catégorie</label>
+            <select name="SUBCAT" id="subcat">
+                <option value="" selected="selected" disabled="disabled">Sélectionnez</option>
+                <option value="1">sub-cat 1</option>
+                <option value="2">sub-cat 2</option>
+                <option value="3">sub-cat 3</option>
+                <option value="4">sub-cat 4</option>
+            </select>
+        </p>
+        <p class="center"><input type="submit" value="Ok" /></p>
+    </fieldset>
+</form>
+<div id="error"></div>

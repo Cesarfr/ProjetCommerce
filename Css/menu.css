@@ -1,0 +1,58 @@
+/* Menu */
+li{
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+li a{
+    display: block;
+    width: 150px;
+    height: 20px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #008080;
+    line-height: 20px;
+}
+
+li a:hover{
+    color: #9cc;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+/* Deuxième niveau */
+li > ol{
+    display: none;
+}
+
+li:hover > ol{
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+li > ol li{
+    display: list-item;
+    margin: 0;
+    border-top: 1px solid #fff;
+}
+
+li > ol a{
+    background-color: #699;
+    color: #fff;
+}
+
+li > ol a:hover{
+    background-color: #9cc;
+    color: #377;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.carrerouge{
+    background-color: #f00;
+    width: 20px;
+    height: 20px;
+}
