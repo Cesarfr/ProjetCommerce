@@ -1,4 +1,7 @@
 <?php
+/**
+ * @author [Cesar HERNANDEZ ANTONIO] <[cesar19_fr@outlook.com]>
+ */
     class VNav
     {
         public function __construct(){}

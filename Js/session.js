@@ -1,3 +1,6 @@
+/**
+ * @author [Cesar HERNANDEZ ANTONIO] <[cesar19_fr@outlook.com]>
+ */
 function initSess(event)
 {
   // Récupère l'élément <form>
@@ -19,11 +22,9 @@ function initSess(event)
   var data = actionForm('../Php/index.php?EX=doLogin', param);
   //alert(data.length);
   if (data==0) {
-    alert('entra if');
     windowError("Le login ou le mot passe sont incorrectes!!");
     document.getElementById('user').reset();
   } else{
-    alert('entra else');
     window.location="../Php/index.php?EX=initSe&prenom="+data[0]['prenom']+'&nom='+data[0]['nom'];
   }
   // Stoppe l'événement

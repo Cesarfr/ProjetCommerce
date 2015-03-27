@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * @author [Cesar HERNANDEZ ANTONIO] <[cesar19_fr@outlook.com]>
+ */
 define ('DEBUG', true);
 define('DATABASE', 'mysql:host=localhost;dbname=COMMERCE');
 define('LOGIN', 'root');

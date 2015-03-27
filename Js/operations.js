@@ -1,5 +1,5 @@
 /**
- * Created by h14022425 on 19/11/14.
+ * @author [Cesar HERNANDEZ ANTONIO] <[cesar19_fr@outlook.com]>
  */
 
 DEBUG_AJAX = true;
@@ -16,7 +16,6 @@ src[i++] = 'product.js';
 src[i++] = 'sub_prod.js';
 src[i++] = 'cat_prod.js';
 src[i++] = 'init.js';
-src[i++] = 'jquery.min.js';
 src[i++] = 'buttonsCate.js';
 src[i++] = 'buttonsSub.js';
 src[i++] = 'buttonsProd.js';

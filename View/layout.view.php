@@ -3,6 +3,9 @@
     $vnav = new VNav();
     $vaside = new VAside();
     $vpage = new $page['class']();
+    /**
+     * @author [Cesar HERNANDEZ ANTONIO] <[cesar19_fr@outlook.com]>
+     */
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr">

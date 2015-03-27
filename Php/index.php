@@ -3,6 +3,10 @@
     require('../Inc/require.inc.php');
     session_start();
     error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
+    /**
+     * @author [Cesar HERNANDEZ ANTONIO] <[cesar19_fr@outlook.com]>
+     * @var [type]
+     */
     $EX = isset($_REQUEST['EX']) ? $_REQUEST['EX'] : 'home';
 
     switch($EX)

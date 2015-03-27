@@ -64,3 +64,5 @@ INSERT INTO SUB_PROD (id_subcat, id_product) VALUES(4,1);
 INSERT INTO SUB_PROD (id_subcat, id_product) VALUES(1,2);
 INSERT INTO SUB_PROD (id_subcat, id_product) VALUES(3,3);
 INSERT INTO SUB_PROD (id_subcat, id_product) VALUES(4,4);
+
+INSERT INTO USER (n_user, password, prenom, nom) VALUES('admin', '827ccb0eea8a706c4c34a16891f84e7b', 'Cesar', 'HERNANDEZ');

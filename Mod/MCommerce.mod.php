@@ -1,5 +1,7 @@
 <?php 
-
+/**
+ * @author [Cesar HERNANDEZ ANTONIO] <[cesar19_fr@outlook.com]>
+ */
 class MCommerce{
 
 	private $conn;

@@ -1,4 +1,6 @@
-
+/**
+ * @author [Cesar HERNANDEZ ANTONIO] <[cesar19_fr@outlook.com]>
+ */
 function insertProd(event)
 {
   // Récupère l'élément <form>

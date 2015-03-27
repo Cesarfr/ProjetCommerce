@@ -1,3 +1,6 @@
+/**
+ * @author [Cesar HERNANDEZ ANTONIO] <[cesar19_fr@outlook.com]>
+ */
 function insertSP(event)
 {
   // Récupère l'élément <form>

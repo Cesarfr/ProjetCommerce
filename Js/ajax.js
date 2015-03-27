@@ -1,4 +1,6 @@
-
+/**
+ * @author [Cesar HERNANDEZ ANTONIO] <[cesar19_fr@outlook.com]>
+ */
 function getXhr()
 {
   var xhr;
@@ -109,7 +111,7 @@ function actionForm(php, param)
   //Envoie les paramètres param
   xhr.send(param);
   
-  if (DEBUG_AJAX) alert('actionF: '+xhr.responseText);
+  // if (DEBUG_AJAX) alert('actionF: '+xhr.responseText);
 // alert('fin actionForm');
   // La réponse  au format json devient un objet javascript
   return JSON.parse(xhr.responseText);
@@ -133,7 +135,7 @@ function uploadForm(php, target, name_image, image)
   // Envoie des données du formulaire
   xhr.send(upload);
   
-  if (DEBUG_AJAX) alert(xhr.responseText);
+  // if (DEBUG_AJAX) alert(xhr.responseText);
 
   //La réponse  au format json devient un objet javascript
   return JSON.parse(xhr.responseText);

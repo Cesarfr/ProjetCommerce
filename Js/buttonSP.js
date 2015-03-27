@@ -1,4 +1,6 @@
- 
+/**
+ * @author [Cesar HERNANDEZ ANTONIO] <[cesar19_fr@outlook.com]>
+ */ 
 // Création du bouton de suppression
 var trashSP = document.createElement('button');
 trashSP.setAttribute('class', 'button trashSP');

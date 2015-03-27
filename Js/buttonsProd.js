@@ -1,3 +1,6 @@
+/**
+ * @author [Cesar HERNANDEZ ANTONIO] <[cesar19_fr@outlook.com]>
+ */
 // Création du bouton de modification
   var midifyP = document.createElement('button');
   midifyP.setAttribute('class', 'button modifyProd');

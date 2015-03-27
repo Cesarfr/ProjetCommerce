@@ -1,3 +1,6 @@
+/**
+ * @author [Cesar HERNANDEZ ANTONIO] <[cesar19_fr@outlook.com]>
+ */
 /* Listeners */
 var click_logo = document.getElementById('logo');
 if (click_logo)

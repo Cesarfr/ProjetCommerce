@@ -1,7 +1,6 @@
 /**
- * Created by h14022425 on 19/11/14.
+ * @author [Cesar HERNANDEZ ANTONIO] <[cesar19_fr@outlook.com]>
  */
-
 function showContact () {
   changeContent('content', '../Php/index.php?EX=contact', '', 'initContact()');
 }
